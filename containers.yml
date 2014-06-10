@@ -1,0 +1,11 @@
+version: v0.0.1
+containers:
+  - name: es1
+    image: dockerfile/elasticsearch
+    ports:
+      - name: http
+        hostPort: 9200
+        containerPort: 9200
+	  - name: http
+        hostPort: 9300
+        containerPort: 9300
