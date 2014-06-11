@@ -13,3 +13,6 @@ sudo docker run -d -p 9200:9200 -p 9300:9300 dockerfile/elasticsearch
 sudo apt-get update
 sudo apt-get install nginx
 sudo /etc/init.d/nginx start
+
+
+# Connect with SFTP using the SSH private key commonly ~/.ssh/google_compute_engine
