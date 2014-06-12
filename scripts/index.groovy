@@ -73,7 +73,7 @@ import org.elasticsearch.action.bulk.BulkResponse
 	println "Begin indexing ${type} on ${indexName} index"
 
 	// Bulk de 10000
-	def bulkSize = 1000
+	def bulkSize = 10000
 	def nbElems = datas.size()
 	def nbChunk = ((nbElems / bulkSize) as Integer) +1
 	def index = 0
